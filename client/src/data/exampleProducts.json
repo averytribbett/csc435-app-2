@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 2,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 3,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  },
+  {
+    "id": 4,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 5,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 6,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  },
+  {
+    "id": 7,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 8,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 9,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  },
+  {
+    "id": 10,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 11,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 12,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  },
+  {
+    "id": 13,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 14,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 15,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  },
+  {
+    "id": 16,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 17,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 18,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  },
+  {
+    "id": 19,
+    "name": "MacBook Air",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+    "quantity": 21
+  },
+  {
+    "id": 20,
+    "name": "Introduction to Computer Science",
+    "price": 74.99,
+    "image": "https://m.media-amazon.com/images/I/61JGJcZJfDL._AC_UF1000,1000_QL80_.jpg",
+    "quantity": 50
+  },
+  {
+    "id": 21,
+    "name": "Pilot G-2 Pen",
+    "price": 4.99,
+    "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/790761/790761_p_pilot_g_2_retractable_gel_pens/790761",
+    "quantity": 150
+  }
+]

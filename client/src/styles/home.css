@@ -1,0 +1,25 @@
+/* Styling used for Home.js page */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-div {
+  width: 400px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
