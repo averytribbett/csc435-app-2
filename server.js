@@ -11,7 +11,7 @@ const bodyParser = require("body-parser");
 
 // Configure app
 const corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://csc435-app-2-cca1a46dee57.herokuapp.com/"
 };
 
 app.use(cors(corsOptions));

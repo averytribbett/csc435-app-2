@@ -43,7 +43,7 @@ export const Login = () => {
             password: password,
           }
           console.log(userState)
-          const response = await fetch("http://localhost:3001/login", {
+          const response = await fetch("/login", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -55,12 +55,9 @@ export const Login = () => {
 
           if (!response.ok) throw new Error("Error logging in");
 
+          // If good response redux login
           const data = await response.json();
-          console.log(data)
-          console.log("Hello")
           if (data.length !== 0) await reduxLogin();
-          
-          
         } catch (error) {
           console.error('Error loggining in:', error.message);
           alert("Error logging in make sure email and password are valid.");
@@ -68,8 +65,6 @@ export const Login = () => {
         }
       }
       auth();
-      
-
     } else {
       const filledOut = email && password && username && firstName && lastName;
       if (!filledOut) {
@@ -88,7 +83,7 @@ export const Login = () => {
             password: password,
           }
           console.log(userState)
-          const response = await fetch("http://localhost:3001/user", {
+          const response = await fetch("/user", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
