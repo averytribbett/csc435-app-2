@@ -31,6 +31,7 @@ export const NavBar = ({ onSearch }) => {
         <Link to="/account">
           <img
             alt="Account Button"
+            data-testid="account-button"
             src={AccountIcon}
             width="30"
             height="30"

@@ -5,6 +5,11 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { login } from "./../stores/userSlice";
 
+// Development
+let endpoint = "http://localhost:3001";
+// Production
+endpoint = "";
+
 export const Login = () => {
   const [loginState, setLoginState] = useState(true);
   // Form data and handlers
@@ -27,7 +32,6 @@ export const Login = () => {
       }
 
       const reduxLogin = async () => {
-        console.log("REDUX")
         dispatch(login({
           email: email,
           password: password,
@@ -43,7 +47,7 @@ export const Login = () => {
             password: password,
           }
           console.log(userState)
-          const response = await fetch("/login", {
+          const response = await fetch(`${endpoint}/login`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -83,7 +87,7 @@ export const Login = () => {
             password: password,
           }
           console.log(userState)
-          const response = await fetch("/user", {
+          const response = await fetch(`${endpoint}/user`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -95,7 +99,6 @@ export const Login = () => {
           if (!response.ok) throw new Error("Error Signing Up");
           
           const newUser = await response.json();
-          console.log("New user created:", newUser);
 
           // Send alert prompting user to now log in
           alert(`Thank you ${newUser.firstName} for signing up! Please login with your credentials now.`);
@@ -115,6 +118,7 @@ export const Login = () => {
         <input 
           className="input-box" 
           type="email" 
+          data-testid="email-input"
           placeholder="Email" 
           required
           onChange={(e) => setEmail(e.target.value)}
@@ -128,6 +132,7 @@ export const Login = () => {
         }
         <input 
           className="input-box" 
+          data-testid="password-input"
           type="password" 
           placeholder="Password" 
           required
@@ -135,6 +140,7 @@ export const Login = () => {
         />
         <input 
           className="submit-btn form-btn" 
+          data-testid="submit-login"
           value={loginState ? "Log In" : "Create Account"}
           type="button"
           onClick={handleSubmit}

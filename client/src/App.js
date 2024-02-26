@@ -4,19 +4,21 @@ import { Home } from './pages/Home';
 import './App.css';
 import { Cart } from './pages/Cart';
 import { Account } from './pages/Account';
+import { Provider } from 'react-redux';
+import { store } from "./stores/store";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Login />}/>
-          <Route path="/home" element={<Home/>}/>
-          <Route path="/cart" element={<Cart/>}/>
-          <Route path="/account" element={<Account/>}/>
-        </Routes>
-      </Router>
-    </div>
+    <Provider store={store}>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Login />}/>
+            <Route path="/home" element={<Home/>}/>
+            <Route path="/cart" element={<Cart/>}/>
+            <Route path="/account" element={<Account/>}/>
+          </Routes>
+        </Router>
+    </Provider>
   );
 }
 
