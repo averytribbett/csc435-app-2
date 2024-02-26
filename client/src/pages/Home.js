@@ -22,14 +22,13 @@ export const Home = () => {
         onSearch={setSearch} // Extract search from Nav
       />
       <div className="info-div">
-        <h1>Coming Soon! CSP Store</h1>
         {user ? (
           <h2>{`Email: ${user.email}`}</h2>
         ): null}
         <p>Avery Tribbett</p>
         <p>CSC435 - Adv Web App Dev</p>
-        <p>Assignment 5</p>
-        <p>02/11/2024</p>
+        <p>Assignment 7</p>
+        <p>02/25/2024</p>
         <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
       </div>
       <ProductContainer

@@ -31,6 +31,7 @@ export const Account = () => {
             <input 
               type="button"
               value="Logout"
+              data-testid="logout-button"
               className="btn-logout"
               onClick={handleLogout}
             />
